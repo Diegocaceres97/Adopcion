@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@300&family=Roboto+Slab:wght@500;900&display=swap');
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("/img/perro-blanco-negro-pixabay.jpg");
+    background-size: cover;
+}
+h1{
+    font-family: 'Big Shoulders Inline Text', cursive;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+.container{
+    margin-top: 11%;
+    text-align: center;
+}
+.texto{
+    text-align: justify;
+    padding: 20px;
+    background-color: rgb(233, 246, 252);
+    margin: auto;
+    height: 25vh;
+    border-radius: 10px;
+    width: 60vw;
+}
+i{
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    margin: 300px;
+}
+a{
+    margin: 50%;
+}
