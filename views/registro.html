@@ -1,0 +1,72 @@
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Formulario de contacto</title>
+
+  
+  <link rel="stylesheet" type="text/css" href="/styles/contact.css">
+<!--BoxIcons-->
+<script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  
+  </head>
+
+
+<body>
+  
+  <!-- formulario de contacto en html y css -->  
+
+<div class="contact_form">
+
+<div class="formulario">
+      <h1>Registro nuevo usuario</h1>
+
+
+<form action="registro.php" method="post">
+
+
+<p>
+<label for="nombre" class="colocar_nombre">Nombre
+<span class="obligatorio">*</span>
+</label>
+<input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+</p>
+
+<p>
+<label for="email" class="colocar_apellido">Apellido
+<span class="obligatorio">*</span>
+</label>
+<input type="text" name="introducir_apellido" id="apellido" required="obligatorio" placeholder="Escribe tu Apellido">
+</p>
+
+<p>
+<label for="telefone" class="colocar_correo">Correo
+</label>
+<input type="email" name="introducir_email" id="email" placeholder="Escribe tu email">
+</p>
+
+<p>
+<label for="direccion" class="colocar_direccion">Direccion
+</label>
+<input type="text" name="introducir_direccion" id="direccion" placeholder="Escribe tu direccion">
+</p>
+
+<p>
+<label for="contrasena" class="colocar_contrasena">Contraseña
+<span class="obligatorio">*</span>
+</label>
+<input type="password" name="introducir_contrasena" id="contrasena" required="obligatorio" placeholder="Escribe tu Contraseña">
+</p>  
+
+<button type="submit" name="enviar_formulario" id="enviar"><p>Registrarme</p></button>
+
+
+
+</form>
+<div class="container" style="margin-left: 180px;"><a href="./../index.html"><box-icon name='home' type='solid' animation='tada' ></box-icon>INICIO</a></div>
+
+</div>
+</div>
+
+</body>
+</html>
